@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="201711431차희수" />
+
+    <FrameLayout
+        android:id="@+id/quizframe"
+        android:name="com.example.englishquiz.QuizFragment"
+        android:layout_width="match_parent"
+        android:layout_height="164dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/itemframe"
+        android:name="com.example.englishquiz.ItemFragment"
+        android:layout_width="match_parent"
+        android:layout_height="318dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#5A673AB7"
+        android:text="다음 문제" />
+
+    <Button
+        android:id="@+id/scoreBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:background="#5A673AB7"
+        android:text="점수 확인" />
+
+</LinearLayout>
+

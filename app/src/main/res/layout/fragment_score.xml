@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="232dp"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:gravity="left|fill_vertical"
+        android:text="user"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#A9673AB7" />
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="98dp"
+        android:layout_height="40dp"
+        android:layout_margin="@dimen/text_margin"
+        android:gravity="center"
+        android:text="score"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#B0673AB7" />
+</LinearLayout>

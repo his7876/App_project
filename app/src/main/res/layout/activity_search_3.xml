@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_3Activity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="410dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="14dp"
+            android:text="검색 결과 : "
+            android:textColor="#B33498DB"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemText11"
+            android:layout_width="91dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="알레기살정" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginRight="142dp"
+            android:text="1건"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/bolder_call"
+        android:orientation="vertical"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="39dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pill_icon" />
+
+            <TextView
+                android:id="@+id/item_number1"
+                android:layout_width="333dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="알레기살정10밀리그람(페미로라스트칼륨)"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_image1"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                app:srcCompat="@drawable/itemitemtiem" />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_margin="@dimen/text_margin"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="알레르기용약"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/content21"
+                android:layout_width="match_parent"
+                android:layout_height="162dp"
+                android:layout_margin="@dimen/text_margin"
+                android:text="\t\t띠 모양 할선이 있는 황백색 원형정제이다\n\n
+- 원 개발사인 일본 MTPC에서 수익성 부족을 이유로 한국에서의 비즈니스를 중단하겠다는 통보를 하였으며 2017년 3월 계약이 종료되어 더이상 벌크 수입진행할 수 없음.\n\n
+- 현 시점 자사의 판매 추이를 분석하였을 때 수입된 벌크 정제의 재고가 2018년 6월 소진될 것으로 예상됨 "
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

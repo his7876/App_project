@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139016083614",
+    "firebase_url": "https://refuge-279015.firebaseio.com",
+    "project_id": "refuge-279015",
+    "storage_bucket": "refuge-279015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139016083614:android:b270ab6a3d5aaa1b98038f",
+        "android_client_info": {
+          "package_name": "com.example.refugeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139016083614-co5jhcq0daft4lpq1vru89fjlnc7j4tg.apps.googleusercontent.com",
+          "client_type": 3,
+          "android_info": {
+            "package_name": "com.example.refugeapplication",
+            "certificate_hash": "9c410a9dc7a19cceaa549d4af3b9f2f887dec6bf"
+          }
+        },
+        {
+          "client_id": "139016083614-8bfpvvoq7bag9e3fljcbvgn0r59ltbbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDenAU4p17qKQHW-B3CBAuPPGy_UwWoEFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139016083614-8bfpvvoq7bag9e3fljcbvgn0r59ltbbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

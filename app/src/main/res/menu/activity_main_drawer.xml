@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/runningman"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/tellme"
+            android:title="@string/menu_info" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_new"
+            android:title="@string/menu_setting" />
+
+        <item
+            android:id="@+id/name"
+            android:title="201711431 차희수" />
+
+
+
+</menu>

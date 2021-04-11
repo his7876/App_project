@@ -1,6 +1,8 @@
 # [개인 PROJECT] :iphone:
 
 --------
+##### 영어 단어 어플  / 영어 퀴즈 어플 
+--------
 ### 1. [대피하소]  서울시 대피소 어플  :running::zap:
 ###### [발표자료](https://drive.google.com/file/d/1BKTN0ommswcbYGf3zOQAfcxHXuU1Z1Hk/view?usp=sharing)
 --------

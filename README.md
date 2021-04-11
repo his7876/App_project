@@ -4,7 +4,8 @@
 ### 1. [대피하소]  서울시 대피소 어플  :running::zap:
 ###### [발표자료](https://drive.google.com/file/d/1BKTN0ommswcbYGf3zOQAfcxHXuU1Z1Hk/view?usp=sharing)
 --------
-- 제작 기간 : 2020년 1학기  
+- 제작 기간 : 2020년 1학기 기말프로젝트
+
 - 사용 API 및 공공데이터
     1. 구글 맵 API
      2. 서울시 내의 각종 대피소 데이터 (json) 
@@ -23,7 +24,8 @@
 ### 2. [이약 뭐약?]   약국 / 약 검색 어플 :pill:
 ###### [발표자료](https://drive.google.com/file/d/1CADEcRre4yGjFr773U7AVqZr89UP1ZzG/view?usp=sharing)
 --------
-- 제작기간 : 2020 2학
+- 제작기간 : 2020 2학기 기말 프로젝트
+
 - 사용 API 및 공공데이터
     1. 전국 약국 API
     2. 의약품 허가 정보 

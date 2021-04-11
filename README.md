@@ -1,4 +1,4 @@
-### 1. [대피하소]  서울시 대피소 어플  :running::zap:
+###  [대피하소]  서울시 대피소 어플  :running::zap:
 ###### [발표자료](https://drive.google.com/file/d/1BKTN0ommswcbYGf3zOQAfcxHXuU1Z1Hk/view?usp=sharing)
 --------
 - 제작 기간 : 2020년 1학기 기말프로젝트

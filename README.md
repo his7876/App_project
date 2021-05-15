@@ -1,4 +1,4 @@
-# [개인 PROJECT] :iphone:
+# [개인 PROJECT] :iphone:  with Kotlin
 
 --------
 ##### 영어 단어 어플  / 영어 퀴즈 어플 
